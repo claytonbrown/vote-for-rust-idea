@@ -9,7 +9,7 @@ Or find inspiration for your next rust project
 
 # What?
 
-[See more...](https://jaroslaw-weber.github.io/vote-for-rust-idea/)
+[See more...](https://jaroslaw-weber.github.io/vote-for-rust-idea/generated/)
 
 
 ## todo:
