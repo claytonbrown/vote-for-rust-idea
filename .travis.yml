@@ -11,7 +11,7 @@ os:
   - linux
 
 before_install:
-  - chmod +x build.sh
+  - chmod +x ./deploy.sh
 
 
 after_success: ./deploy.sh
