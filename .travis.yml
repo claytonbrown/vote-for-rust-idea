@@ -9,7 +9,9 @@ env:
 
 os:
   - linux
-  - osx
+
+before_install:
+  - chmod +x build.sh
 
 
 after_success: ./deploy.sh
