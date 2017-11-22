@@ -14,4 +14,8 @@ Or find inspiration for your next rust project
 
 ## todo:
 - bugfix: show ideas without votes
+- configure travis to build and push to pages branch after succesful merge (similar script to rust cookbook)
+- add more idea details (related projects/crates, rfc link, tags)
+- add "need help with existing project" (similar to ideas, but new new ideas, just voting for brushup/contribution)
+
 
