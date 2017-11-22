@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/jaroslaw-weber/vote-for-rust-idea.svg?branch=master)](https://travis-ci.org/jaroslaw-weber/vote-for-rust-idea)
+
+
 # Vote for rust idea
 
 
