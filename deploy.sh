@@ -50,7 +50,7 @@ cp -r generated/ vote/
 
 echo "Committing book directory to gh-pages branch"
 REV=$(git rev-parse --short HEAD)
-cd book
+cd vote
 git init
 git remote add upstream "https://$GH_TOKEN@github.com/jaroslaw-weber/vote-for-rust-idea"
 git config user.name "Travis (Jaroslaw Weber)"
