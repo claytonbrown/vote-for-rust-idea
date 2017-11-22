@@ -53,7 +53,8 @@ fn get_all_votes() -> Result<HashMap<String, u32>> {
     let mut hm: HashMap<String, u32> = HashMap::new();
     let paths = get_all_vote_file_paths().expect("failed to get all votes file paths");
     for p in paths {
-        let file_content = load_file_to_string(&p)?;
+        let mut file_content = load_file_to_string(&p)?;
+        file_content = file_content.replace("\n",""); //github adds new line to the end of csv. its a workaround
         let splitted = file_content.split(",");
         //TODO limit number of votes! and check parsing
         for key in splitted {
